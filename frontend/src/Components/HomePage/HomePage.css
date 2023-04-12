@@ -1,0 +1,24 @@
+.container {
+    padding: 10px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header div {
+    display: flex;
+    align-items: center;
+}
+
+.loginButton {
+    color: black;
+    margin-right: 30px;
+}
+
+.header img {
+    width: 40px;
+}

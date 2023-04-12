@@ -1,0 +1,27 @@
+.ItemContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ItemInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 90%;
+}
+
+.ItemInfo p {
+    width: 500px;
+    flex-wrap: wrap;
+}
+
+.ItemAdd {
+    align-self: center;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    background-color: rgb(37, 166, 230);
+    font-weight: bold;
+}
